@@ -1,0 +1,96 @@
+/* Import Font */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Black+Ops+One&display=swap');
+
+body { 
+    /* Menggunakan file bg.jpg sesuai permintaan kamu */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #0a0a0a; 
+    color: #eeeeee; 
+    font-family: 'Oswald', sans-serif;
+    margin: 0; 
+}
+
+nav { 
+    display: flex; 
+    justify-content: space-between; 
+    padding: 15px 50px; 
+    background: #ffcc00; 
+    border-bottom: 5px solid #000000;
+}
+
+nav h2 { 
+    color: #000000; 
+    margin: 0; 
+    font-family: 'Black Ops One', cursive; 
+}
+
+nav .user-info { color: #000000; font-weight: bold; }
+nav a { color: #000000; font-weight: bold; text-decoration: none; border: 1px solid #000; padding: 2px 8px; }
+
+.container { 
+    padding: 40px; 
+    text-align: center; 
+    background: rgba(0, 0, 0, 0.75); 
+    backdrop-filter: blur(8px);
+    max-width: 900px;
+    margin: 50px auto;
+    border: 2px solid #ffcc00;
+    box-shadow: 0 0 25px rgba(255, 204, 0, 0.15);
+}
+
+.status-box { 
+    background: #1a1a1a; 
+    color: #fff;
+    padding: 25px; 
+    margin-bottom: 30px; 
+    display: inline-block; 
+    min-width: 320px; 
+    border-left: 10px solid #ffcc00;
+}
+
+.pricing { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; }
+
+.card { 
+    background: #111; 
+    color: #fff;
+    border: 1px solid #333;
+    padding: 25px; 
+    width: 180px; 
+    transition: 0.3s;
+}
+
+.card h4 { margin: 0; color: #ffcc00; font-size: 1.5em; }
+.card:hover { transform: translateY(-10px); border-color: #ffcc00; }
+
+.btn {
+    background: #ffcc00; 
+    color: #000; 
+    border: none; 
+    padding: 12px 25px;
+    cursor: pointer; 
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+.btn:hover { background: #e6b800; }
+
+input { 
+    padding: 12px; 
+    margin: 10px 0; 
+    border: 1px solid #444; 
+    width: 280px; 
+    background: #222;
+    color: #ffcc00;
+}
+
+.btn-cancel {
+    display: inline-block;
+    margin-top: 15px;
+    color: #ffcc00;
+    text-decoration: none;
+    border-bottom: 1px solid #ffcc00;
+}
